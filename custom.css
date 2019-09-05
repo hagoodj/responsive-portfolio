@@ -79,6 +79,11 @@ li:nth-child(2) {
     position: relative;
 }
 
+.projectImages {
+    margin: 10px;
+    border: #dddddd solid 1px;
+}
+
 .labels {
     position: absolute;
     width: 200px;
