@@ -1,11 +1,24 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
  font-family: 'Open Sans', sans-serif
 }
 
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(118, 156, 168);
+}
+
 .parallax {
     /* The image used */
-    background-image: url("../img/background3.png");
+    background-image: url("../img/background3c1.png");
   
     /* Full height */
     height: 100%; 
@@ -16,10 +29,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("../img/background4.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   
   /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
   @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallax, .parallax2 {
       background-attachment: scroll;
     }
   }
@@ -39,45 +67,74 @@ body {
     margin: 0;
 } */
 
-h1 {
+#name,
+#contact {
     font-family: 'Montserrat', sans-serif;
     color: white;
     margin-bottom: 0px;
+}
+
+#projects {
+    color: rgb(118, 156, 168);
+}
+
+h3 {
+    color: rgb(147, 182, 194);
 }
 
 h4 {
     color: rgb(147, 182, 194);
 }
 
-.nav-link {
+h5 {
+    color: rgb(46, 77, 87);
+}
+
+#about,
+#footer {
+    line-height: 500px;
+}
+
+#aboutme,
+#contact {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#bottom {
+    background-color:rgb(46, 77, 87);
+}
+
+/* .nav-link {
     background-color: rgb(103, 103, 105);
     color:white;
-}
+} */
 
-li {
+/* li {
     padding: 6px;
-}
+} */
 
-li:first-child {
+/* li:first-child {
     border-right: 1px solid #dddddd;
-}
+} */
 
-li:nth-child(2) {
+/* li:nth-child(2) {
     border-right: 1px solid #dddddd;
-}
+} */
 
-.nav-link:hover {
+/* .nav-link:hover {
     background-color: rgb(212, 208, 208);
-}
+} */
 
-.bg-white {
+/* .bg-white {
     border: black solid 1px;
     margin-bottom: 80px;
     max-width: 960px;
     -webkit-box-shadow: 0 0 10px black;
     -moz-box-shadow: 0 0 10px black;
     box-shadow: 0 0 10px black;
-}
+} */
 
 /* .row1 {
     color: #56718f;
@@ -86,15 +143,6 @@ li:nth-child(2) {
     padding: 10px;
     max-width: 960px;
 } */
-
-#footer {
-    background-color: rgb(103, 103, 105);
-    border-top: black;
-    -webkit-box-shadow: 0 8px 6px 6px black;
-    -moz-box-shadow: 0 8px 6px 6px black;
-    box-shadow: 0 8px 6px 6px black;
-    height:60px;
-}
 
 /* About Me */
 /* .row2 {
