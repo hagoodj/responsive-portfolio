@@ -1,8 +1,7 @@
 # Responsive Portfolio
 
-## Site Pictures
-![Site](./bootstrap-portfolio.JPG)
-![Site](./responsive-portfolio.JPG)
+## Site Video
+![Site](./public/img/sitegif.GIF)
 
 ## Technologies Used 
 - HTML - Used to create elements on the DOM
@@ -33,3 +32,4 @@ The following code shows the media query used to center the navigation bar and h
 
 ## Author Links
 https://github.com/hagoodj
+https://www.linkedin.com/in/jordan-hagood-7b306410b/
