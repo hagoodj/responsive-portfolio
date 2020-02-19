@@ -1,7 +1,7 @@
 # Responsive Portfolio
 
 ## Site Video
-![Site](./public/img/sitegif.GIF)
+![Site](./public/img/sitegif.gif)
 
 ## Technologies Used 
 - HTML - Used to create elements on the DOM
