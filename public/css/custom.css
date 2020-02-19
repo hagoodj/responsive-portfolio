@@ -32,6 +32,20 @@ body {
 
   .parallax2 {
     /* The image used */
+    background-image: url("../img/background5.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax3 {
+    /* The image used */
     background-image: url("../img/background4.jpg");
   
     /* Full height */
@@ -47,7 +61,7 @@ body {
   
   /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
   @media only screen and (max-device-width: 1366px) {
-    .parallax, .parallax2 {
+    .parallax, .parallax2, .parallax3 {
       background-attachment: scroll;
     }
   }
@@ -79,7 +93,7 @@ body {
 }
 
 h3 {
-    color: rgb(147, 182, 194);
+    color: rgb(118, 156, 168);
 }
 
 h4 {
@@ -100,6 +114,10 @@ h5 {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+}
+
+.icon {
+    padding: 10px;
 }
 
 #bottom {
